@@ -5809,8 +5809,5 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.container {
-  height: 50px;
-  border: 1px solid red; }
 
 /*# sourceMappingURL=style.css.map */
