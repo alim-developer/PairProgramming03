@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5809,8 +5810,51 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.container {
-  height: 50px;
-  border: 1px solid red; }
+#news {
+  width: 100%; }
+  #news .col-md-3 {
+    padding: 10px; }
+  #news .row .col-md-3 div {
+    height: 200px;
+    background-size: cover;
+    color: white;
+    font-size: 16px;
+    line-height: 22px; }
+    #news .row .col-md-3 div .blog-content {
+      padding-top: 110px; }
+  #news .postFirst {
+    background-image: url("http://templates.everislabs.com/erato/images/demo/post-7-570.jpg"); }
+  #news .postSecond {
+    background-image: url("http://templates.everislabs.com/erato/images/demo/post-5-570.jpg"); }
+  #news .postThird {
+    background-image: url("http://templates.everislabs.com/erato/images/demo/post-4-570.jpg"); }
+  #news .postFourth {
+    background-image: url("http://templates.everislabs.com/erato/images/demo/post-6-570.jpg"); }
+  #news .like {
+    width: 100%;
+    border-bottom: 2px solid black; }
+
+#partners .col-md-3 {
+  padding: 50px; }
+#partners .row .col-md-3 div {
+  height: 45px;
+  background-size: cover;
+  color: white; }
+#partners .postFirst {
+  background-image: url("http://templates.everislabs.com/erato/images/demo/cilent-3.png"); }
+#partners .postSecond {
+  background-image: url("http://templates.everislabs.com/erato/images/demo/cilent-4.png"); }
+#partners .postThird {
+  background-image: url("http://templates.everislabs.com/erato/images/demo/cilent-5.png"); }
+#partners .postFourth {
+  background-image: url("http://templates.everislabs.com/erato/images/demo/cilent-6.png"); }
+#partners h4 {
+  color: inherit;
+  line-height: 26px; }
+#partners span {
+  color: #999; }
+#partners a {
+  background: #333;
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
