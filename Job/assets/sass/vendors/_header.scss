@@ -1,0 +1,109 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+$mainColor:#31A3DD;
+$secondaryColor:#999999;
+$thirdColor: #FFFFFF;
+$mainSpace:35px;
+
+#header{
+	 .connect{
+	border: 1px solid lighten($secondaryColor, 20%);
+	color:$secondaryColor;
+	height:0;
+
+	li:nth-child(1){
+	border-left: 1px solid lighten($secondaryColor, 20%);
+	transition: all .1s ease;
+
+		i{
+				padding-left: $mainSpace / 7 * 4;
+				padding-right: $mainSpace / 7 * 4;
+				padding-top: $mainSpace / 7 * 3;
+				padding-bottom: $mainSpace / 7 * 3;
+			&:hover {
+				background: #3B5998;
+				color: $thirdColor;
+			}
+		}
+	}
+		li:nth-child(2){
+		border-left: 1px solid lighten($secondaryColor, 20%);
+		border-right: 1px solid lighten($secondaryColor, 20%);
+		transition: all .1s ease;
+
+
+		i{
+				padding-left: $mainSpace / 7 * 4;
+				padding-right: $mainSpace / 7 * 4;
+				padding-top: $mainSpace / 7 * 3;
+				padding-bottom: $mainSpace / 7 * 3;
+			&:hover {
+				background: #03A9F4;
+				color: $thirdColor;
+			}
+		}
+	}
+		li:nth-child(3){
+		transition: all .1s ease;
+
+		i{
+				padding-left: $mainSpace / 7 * 4;
+				padding-right: $mainSpace / 7 * 4;
+				padding-top: $mainSpace / 7 * 3;
+				padding-bottom: $mainSpace / 7 * 3;
+			&:hover {
+				background: #E64A19;
+				color: $thirdColor;
+			}
+		}
+	}
+	li:nth-child(4){
+		border-left: 1px solid lighten($secondaryColor, 20%);
+		transition: all .1s ease;
+		
+		i{
+				padding-left: $mainSpace / 7 * 4;
+				padding-right: $mainSpace / 7 * 4;
+				padding-top: $mainSpace / 7 * 3;
+				padding-bottom: $mainSpace / 7 * 3;
+			&:hover {
+				background: #D32F2F;
+				color: $thirdColor;
+			}
+		}
+	}
+	li:nth-child(5){
+		border-left: 1px solid lighten($secondaryColor, 20%);
+		border-right: 1px solid lighten($secondaryColor, 20%);
+		transition: all .1s ease;
+		
+		i{
+				padding-left: $mainSpace / 7 * 4;
+				padding-right: $mainSpace / 7 * 4;
+				padding-top: $mainSpace / 7 * 3;
+				padding-bottom: $mainSpace / 7 * 3;
+			&:hover {
+				background: #303F9F;
+				color: $thirdColor;
+			}
+		}
+	}
+}	
+	.menu{
+		padding-top: $mainSpace / 5 * 1.5;
+		li a{
+		margin-left: $mainSpace / 7;
+		transition: all .5s ease;
+		color: $secondaryColor;
+		padding: $mainSpace / 5;
+		
+		&:hover {
+		text-decoration: none;
+		background: $mainColor;
+		color: $thirdColor;
+		border-radius: 40%;
+			}
+		}
+	}
+}
+
+// Fidan Babayeva

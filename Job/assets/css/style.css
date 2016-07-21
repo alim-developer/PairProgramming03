@@ -7,6 +7,10 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
 @import url("https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
 html {
@@ -5880,6 +5884,123 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+#header .connect {
+  border: 1px solid #cccccc;
+  color: #999999;
+  height: 0; }
+  #header .connect li:nth-child(1) {
+    border-left: 1px solid #cccccc;
+    transition: all .1s ease; }
+    #header .connect li:nth-child(1) i {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      #header .connect li:nth-child(1) i:hover {
+        background: #3B5998;
+        color: #FFFFFF; }
+  #header .connect li:nth-child(2) {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    transition: all .1s ease; }
+    #header .connect li:nth-child(2) i {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      #header .connect li:nth-child(2) i:hover {
+        background: #03A9F4;
+        color: #FFFFFF; }
+  #header .connect li:nth-child(3) {
+    transition: all .1s ease; }
+    #header .connect li:nth-child(3) i {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      #header .connect li:nth-child(3) i:hover {
+        background: #E64A19;
+        color: #FFFFFF; }
+  #header .connect li:nth-child(4) {
+    border-left: 1px solid #cccccc;
+    transition: all .1s ease; }
+    #header .connect li:nth-child(4) i {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      #header .connect li:nth-child(4) i:hover {
+        background: #D32F2F;
+        color: #FFFFFF; }
+  #header .connect li:nth-child(5) {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    transition: all .1s ease; }
+    #header .connect li:nth-child(5) i {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      #header .connect li:nth-child(5) i:hover {
+        background: #303F9F;
+        color: #FFFFFF; }
+#header .menu {
+  padding-top: 10.5px; }
+  #header .menu li a {
+    margin-left: 5px;
+    transition: all .5s ease;
+    color: #999999;
+    padding: 7px; }
+    #header .menu li a:hover {
+      text-decoration: none;
+      background: #31A3DD;
+      color: #FFFFFF;
+      border-radius: 40%; }
+
+#slider {
+  background-image: url(http://templates.everislabs.com/erato/images/slider/slide_2_bg.png);
+  background-size: cover;
+  height: 500px; }
+  #slider img {
+    float: right;
+    margin-right: 35px; }
+  #slider h4 {
+    text-align: center;
+    padding-top: 210px;
+    color: #999999; }
+  #slider h1 {
+    text-align: center;
+    color: #31A3DD; }
+  #slider p {
+    text-align: center;
+    padding-top: 35px;
+    color: #FFFFFF; }
+
+#content .tv {
+  border: 1px solid #cccccc;
+  margin: 35px; }
+  #content .tv:hover {
+    border: 2px solid #31A3DD; }
+#content .light {
+  border: 1px solid #cccccc;
+  margin-top: 35px;
+  margin-bottom: 35px; }
+  #content .light:hover {
+    border: 2px solid #31A3DD; }
+#content .code {
+  border: 1px solid #cccccc;
+  margin: 35px; }
+  #content .code:hover {
+    border: 2px solid #31A3DD; }
+#content i {
+  text-align: center;
+  margin-left: 115px;
+  transition: all .5s ease; }
+#content h4 {
+  text-align: center; }
+#content p {
+  text-align: center; }
+
 #about .container-fluid {
   background-color: #3D4546;
   color: white;
@@ -5979,6 +6100,52 @@ button.close {
     color: #869496;
     transform: rotate(180deg);
     margin-top: 10px; }
+
+/* Alim */
+#mission .container {
+  padding: 30px 0;
+  border-bottom: 1px solid #d8dcdd; }
+#mission h3 {
+  font-weight: bold;
+  color: #3D4546;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #d8dcdd; }
+#mission .text1 p:nth-child(1) {
+  background-color: #31A3DD;
+  color: white;
+  font-weight: bold;
+  padding: 7px 12px; }
+#mission .text1 p:nth-child(2) {
+  color: #869496;
+  padding: 0px 12px;
+  line-height: 30px; }
+#mission .text2 p {
+  background-color: white;
+  color: #3D4546;
+  font-weight: bold;
+  padding: 7px 14px;
+  padding-top: 10px; }
+#mission .text3 p {
+  background-color: white;
+  color: #3D4546;
+  font-weight: bold;
+  padding: 7px 14px; }
+#mission .step .span {
+  background-color: #31A3DD;
+  padding: 10px 0;
+  border-radius: 2px;
+  margin: 3px 0; }
+  #mission .step .span h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white; }
+  #mission .step .span p {
+    text-transform: uppercase;
+    color: white; }
+#mission .document {
+  color: #d8dcdd;
+  position: relative;
+  bottom: -42px; }
 
 /* Alim */
 #news {
@@ -6108,7 +6275,5 @@ button.close {
       color: #6c7b7d; }
       #footer .finish a:hover {
         color: #999999; }
-
-/* Alim */
 
 /*# sourceMappingURL=style.css.map */

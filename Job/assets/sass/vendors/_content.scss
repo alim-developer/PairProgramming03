@@ -1,0 +1,43 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+$mainColor:#31A3DD;
+$secondaryColor:#999999;
+$thirdColor: #FFFFFF;
+$mainSpace:35px;
+
+#content{
+	.tv{
+		border: 1px solid lighten($secondaryColor, 20%);
+		margin: $mainSpace;
+		&:hover{
+		border: 2px solid $mainColor;
+		}
+	}
+	.light{
+		border: 1px solid lighten($secondaryColor, 20%);
+		margin-top: $mainSpace;
+		margin-bottom: $mainSpace;
+		&:hover{
+		border: 2px solid $mainColor;
+		}
+	}
+	.code{
+		border: 1px solid lighten($secondaryColor, 20%);
+		margin: $mainSpace;
+	&:hover{
+		border: 2px solid $mainColor;
+		}
+	}
+	i{
+		text-align:center;
+		margin-left: $mainSpace / 7 * 23;
+		transition: all .5s ease;
+
+	}
+	h4{
+		text-align:center;
+	}
+	p{
+		text-align:center;
+	}
+}
+// Fidan Babayeva

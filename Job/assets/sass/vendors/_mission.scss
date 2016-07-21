@@ -1,0 +1,108 @@
+$footerBackColor: #414547;
+$colorWhite: white;
+$colorBlue: #31A3DD;
+$colorGray: #3D4546;
+$bold: bold;
+$bigPadding: 40px;
+$smallPadding: 10px;
+$lineHeight: 30px;
+$upper: uppercase;
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+
+#mission {
+
+	.container{
+		padding: $smallPadding*3 0;
+		border-bottom: 1px solid lighten($colorGray, 60%);
+	}
+	h3{	
+		font-weight:$bold;
+		color: $colorGray;
+		padding-bottom:5px;
+		border-bottom: 2px solid lighten($colorGray, 60%);
+	}
+	.text1{
+		p:nth-child(1){
+		background-color: $colorBlue;
+		color:$colorWhite;
+		font-weight: $bold;
+		padding: 7px 12px;
+
+	}
+		p:nth-child(2){
+		color:lighten($colorGray, 30%);
+		padding: 0px 12px;
+		line-height: $lineHeight;
+
+
+
+	}
+
+	}
+
+
+	
+	.text2{
+		p{
+			background-color:$colorWhite;
+			color:$colorGray;
+			font-weight: $bold;
+			padding: 7px 14px;
+			padding-top: 10px;
+
+		}
+	}
+
+
+
+	.text3{
+		p{
+			background-color:$colorWhite;
+			color:$colorGray;
+			font-weight: $bold;
+			padding: 7px 14px;
+
+		}
+	}
+
+
+
+	
+	.step{
+		
+		
+		.span{
+			background-color:$colorBlue;
+			padding:10px 0;
+			border-radius: 2px;
+			margin: 3px 0;
+
+
+			h1{
+				font-size: $bigPadding*1.2;
+				font-weight: $bold;
+				color:$colorWhite;
+			}
+
+			p{
+				text-transform: $upper;
+				color:$colorWhite;
+			}
+
+		}
+	}
+
+
+
+	.document{
+		color: lighten($colorGray, 60%);
+		position: relative;
+		bottom: -42px;
+	}
+
+
+}
+
+
+/* Alim */
