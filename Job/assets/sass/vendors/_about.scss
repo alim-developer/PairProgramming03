@@ -1,0 +1,78 @@
+$colorWhite: white;
+$colorBlue: #31A3DD;
+$colorGray: #3D4546;
+$bold: bold;
+$bigPadding: 40px;
+$smallPadding: 10px;
+$lineHeight: 30px;
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+#about{
+
+	.container-fluid {
+		background-color: $colorGray;
+		color: $colorWhite;
+		min-height: 468px;
+		
+		.container{
+
+			.header{
+				padding: $bigPadding 0;
+			}
+			.header h3{		
+				font-weight: $bold;
+			}
+			.main {  
+				
+				p{
+					font-weight: $bold;
+					padding: $smallPadding 0;
+					&:first-child{
+						padding-top: 30px;
+					}
+
+
+
+					i{
+						color:$colorBlue;
+					}
+				}
+			}
+
+			.image img{
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+
+
+
+/* Alim */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

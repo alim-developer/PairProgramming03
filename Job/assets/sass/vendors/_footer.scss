@@ -1,0 +1,106 @@
+$footerBackColor: #414547;
+$colorWhite: white;
+$colorBlue: #31A3DD;
+$colorGray: #3D4546;
+$bold: bold;
+$bigPadding: 40px;
+$smallPadding: 10px;
+$lineHeight: 30px;
+$upper: uppercase;
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+
+#footer{
+	
+	.container{
+		padding: $bigPadding/2;
+
+		
+	}
+
+	background-color: $footerBackColor;
+
+
+	h1, h3, h5{
+		font-weight: bold;
+		color: $colorWhite;
+	}
+
+	h1{
+		font-size: 35px;
+		text-transform: $upper;
+
+	}
+	
+	h5{
+		font-size: 15px;
+
+	}
+
+	.h5{
+			text-transform: $upper;
+			padding: 15px 0;
+			border-bottom: 1px solid lighten(black, 30%);
+
+		}
+
+	p{
+		color: darken($colorWhite, 40%)
+	}
+
+
+	.borderBottom{
+		
+		border-bottom: 1px solid lighten(black, 30%);
+	}
+	
+	
+	img{
+		position: relative;
+		top: 14px;
+		transition: all 0.1s ease;
+		&:hover{
+			filter: brightness(50%);
+		}
+	}
+
+	.time{
+		font-size: 12px;
+	}
+
+	form{
+		padding:0 13px;
+		input{
+			width: 100%;
+			height: 40px;
+			border: transparent;
+			border-radius: 2px;
+			margin-top: 8px;
+		}
+		button{
+			@extend input;
+			background-color: $colorBlue;
+			color: $colorWhite;
+		}
+
+	}
+
+
+	.finish{
+		background-color: darken($colorGray, 10%);
+		span, p{
+			color: lighten( $colorGray, 20%);
+		}
+
+		a {
+			text-decoration: none;
+			color: lighten( $colorGray, 20%);
+			&:hover{
+				color: darken($colorWhite, 40%);
+
+			}
+		}
+	}
+}
+
+/* Alim */
